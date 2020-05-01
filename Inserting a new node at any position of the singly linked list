@@ -63,11 +63,11 @@ void createList(int n)
          */
             printf("Enter the data of node 1: ");
             scanf("%d", &data);
-		        head->data = data; // link the data field with data
+	    head->data = data; // link the data field with data
             head->next = NULL; // link the address field to NULL
-	    	    temp = head;
-		    /*
-         * creates n nodes and adds to linked list
+	    temp = head;
+        /*
+         * creates n-1 nodes and adds to linked list
          */
         for(i=2; i<=n; i++)
         {
