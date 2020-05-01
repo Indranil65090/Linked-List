@@ -137,7 +137,7 @@ void deleteFirstNode()
  */
 void displayList()
 {
-	int i=1;
+    int i=1;
     /*
      * If the list is empty i.e. head = NULL
      */
