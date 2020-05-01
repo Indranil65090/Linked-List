@@ -118,8 +118,8 @@ void deleteLastNode()
         /* Traverse to the last node of the list */
         while(Delete->next != NULL)
         {
-            secondLastNode = toDelete;
-            Delete = toDelete->next;
+            secondLastNode = Delete;
+            Delete = Delete->next;
         }
 
         if(Delete == head)/*if there is only one node*/
