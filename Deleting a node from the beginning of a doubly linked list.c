@@ -105,7 +105,7 @@ void deletebeg()
 	temp=head;
 	printf("\nThe data to be deleted is:%d\n",temp->data);
 	a=head;
-	newhead=temp->next;//thw node next to the head node 
+	newhead=temp->next;//the node next to the head node 
 	newhead->prev=NULL; //making the previous part of the new head as NULL to disconnect head and new head
 	a->next=NULL;//making the next part of the head node/first node as NULL so as to disconnect head and the new head
 	head=newhead;//the node next to the head becomes the new head
