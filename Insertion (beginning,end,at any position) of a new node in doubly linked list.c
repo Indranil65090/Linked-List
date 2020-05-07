@@ -28,21 +28,21 @@ int main()
 	switch(option)
 	{
 		case 1: printf("Enter the value from user:");
-			      scanf("%d",&value);
-			      insertbeg(value);
-			      break;
+			scanf("%d",&value);
+			insertbeg(value);
+			break;
 		case 2: printf("Enter the value from user:");
-			      scanf("%d",&value);
-			      insertend(value);
-			      break;
+			scanf("%d",&value);
+			insertend(value);
+			break;
 		case 3: printf("Enter the value from user:");
-			      scanf("%d",&value);
-			      printf("Enter the position from user:");
-			      scanf("%d",&position);
-			      insertpos(position,value);
-			      break;
+			scanf("%d",&value);
+			printf("Enter the position from user:");
+			scanf("%d",&position);
+			insertpos(position,value);
+			break;
 		default: printf("Sorry wrong choice..!\n");
-			       break;	   	   	   
+			 break;	   	   	   
 	}
 	printf("Display the list:\n");
 	display();
