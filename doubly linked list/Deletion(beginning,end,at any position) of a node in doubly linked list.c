@@ -104,10 +104,10 @@ void DeleteAnyNode(int pos)
     }
     else if(temp != NULL)
     {
-    	  printf("Tha data to be deleted is:%d\n",temp->data);//the data of the node to be deleted is shown
+    	printf("Tha data to be deleted is:%d\n",temp->data);//the data of the node to be deleted is shown
         temp->prev->next = temp->next;
         temp->next->prev = temp->prev;
- 		    free(temp);//Delete the n node
+ 	free(temp);//Delete the n node
     }
     else
     {
