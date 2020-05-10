@@ -135,5 +135,5 @@ void deleten(int position)
 	/*recreating the link to form circular linked list again*/
   
 	p->next=head;
-    head->prev=p;
+    	head->prev=p;
 }
