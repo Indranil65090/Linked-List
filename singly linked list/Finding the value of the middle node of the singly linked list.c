@@ -78,7 +78,7 @@ void nodemiddle()
 {
 	struct node *temp;
 	temp=head;
-	if(n%2!=0)
+	if(n%2!=0)// if the number of nodes is odd
 	{
 		for(int i=0;i<n/2;i++)
 		{
