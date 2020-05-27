@@ -6,7 +6,7 @@ struct node
 	struct node *next;
 }*head;
 void create(int n);
-void total();
+void totalrepeat();
 void display();
 int main()
 {
@@ -20,7 +20,7 @@ int main()
 	printf("\nDisplay the list:\n");
 	display();
 	
-	total();
+	totalrepeat();
 	
 	return 0;
 }
@@ -72,7 +72,7 @@ void display()
 		i++;
 	}
 }
-void total()
+void totalrepeat()
 {
 	int num,count=0;
 	printf("\n\nThe value whose repetition are to be counted:");
