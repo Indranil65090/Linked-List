@@ -30,12 +30,7 @@ int main()
 	create2(n2);
 	printf("\nDisplay the second sorted list:\n");
 	display2();
-	printf("\n\n************************************************************");
-	printf("\n\n****************************JOINING THE TWO LIST***********************");
 	join();
-	printf("\nDisplay the list:\n");
-	display();
-	printf("\n\n************************************************************");
 	printf("\n\n****************************SORTING THE LIST***************************");
 	sort();
 	displaysort();
@@ -154,25 +149,7 @@ void join()
 {
 	end->next=head2;
 }
-void display()
-{
-	struct node *temp;
-	temp=head1;
-	int i=1;
-	if(head1==NULL)
-	{
-		printf("\nLIST IS EMPTY");
-	}
-	else
-	{
-		while(temp!=NULL)
-		{
-			printf("\nData of %d=%d",i,temp->data);
-			temp=temp->next;
-			i++;
-		}
-	}
-}
+
 void sort()
 {
 	struct node *temp1,*temp2;
