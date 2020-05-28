@@ -23,7 +23,7 @@ int main()
   	printf("\nDISPLAY THE LIST:\n\n");
 	display();
 	sort();
-	printf("\n\n*******************DISPLAY THE LIST AFTER SORTING***************************:\n\n");
+	printf("\n\n*******************DISPLAY THE LIST AFTER SORTING***************************\n\n");
 	display();
 	return 0;
 }
