@@ -11,8 +11,9 @@ int main()
 {
 	int n,count=0;
 	
-	printf("Enter a number from user:\n");
+	printf("Enter a number from user:");
 	scanf("%d",&n);
+	printf("\n");
 	
 	int a=n;
 	while(a!=0)
