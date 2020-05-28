@@ -91,6 +91,7 @@ void sort()
 {
 	temp->next=NULL;
 	head->prev=NULL;
+	
 	struct node *temp1,*temp2;
 	int a;
 	temp1=head;
@@ -109,6 +110,7 @@ void sort()
 		}
 		temp1=temp1->next;
 	}
+	
 	temp->next=head;
 	head->prev=temp;
 }
