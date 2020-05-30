@@ -31,7 +31,7 @@ int main()
 	printf("\nDisplay the list:");
 	display();
 	remove_negative_1();
-	printf("\nDisplay the list:");
+	printf("\n\nDisplay the list:");
 	display();
 	return 0;
 }
