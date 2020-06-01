@@ -202,7 +202,7 @@ void insertatanypos(int val,int pos)
 		}
 		else
 		{
-			printf("\n\nYOU ENTERED WRONG POSITION");
+			printf("\nYOU ENTERED WRONG POSITION");
 		}
 	}
 }
