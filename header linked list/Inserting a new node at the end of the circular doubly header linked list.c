@@ -111,6 +111,7 @@ void insertend()
 		 scanf("%d",&val);
 		 newnode->data=val;
 		 end->next=newnode;
+		 newnode->prev=end;
 		 newnode->next=head;
 		 head->prev=newnode;
 		 end=newnode;
