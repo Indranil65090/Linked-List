@@ -6,10 +6,11 @@ struct node
 	struct node *next;
 	struct node *prev;
 }*head,*start,*end;
+
 void create(int n);
 void display();
 void insertend();
-void display();
+
 int main()
 {
 	int n;
