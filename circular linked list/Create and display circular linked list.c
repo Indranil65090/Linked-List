@@ -36,11 +36,11 @@ void createlist(int n)
 	}
 	else
 	{
-	printf("Enter data for node 1:");
-	scanf("%d",&value);
-	head->data=value;//assign the data part of the head node with the value inserted by the user
-	head->next=NULL;//initializing the next part of the head node as NULL
-	temp=head;//now temp pointer variable pointing to the head node
+		printf("Enter data for node 1:");
+		scanf("%d",&value);
+		head->data=value;//assign the data part of the head node with the value inserted by the user
+		head->next=NULL;//initializing the next part of the head node as NULL
+		temp=head;//now temp pointer variable pointing to the head node
 	}
 	for(i=2;i<=n;i++)
 	{
@@ -51,12 +51,12 @@ void createlist(int n)
 		}
 		else
 		{
-		printf("Enter data for node %d:",i);
-		scanf("%d",&value);
-		newnode->data=value;//assign the data part of the rest of the nodes with the value inserted by the user
-		newnode->next=NULL;//initially the next part of the newly created node with NULL
-		temp->next=newnode;//the link of the new node with the head node is created 
-		temp=newnode;//now temp pointer is pointing to the newnode
+			printf("Enter data for node %d:",i);
+			scanf("%d",&value);
+			newnode->data=value;//assign the data part of the rest of the nodes with the value inserted by the user
+			newnode->next=NULL;//initially the next part of the newly created node with NULL
+			temp->next=newnode;//the link of the new node with the head node is created 
+			temp=newnode;//now temp pointer is pointing to the newnode
 		}
 	}
 	temp->next=head;/*out of the loop so now temp variable will point to the last node of the list 
